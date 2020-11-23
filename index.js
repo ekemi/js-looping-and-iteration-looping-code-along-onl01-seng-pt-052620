@@ -5,11 +5,10 @@ function writeCards(array, string){
     newArray.push(`Thank you, ${array[i]}, for the wonderful ${string} gift!`);
     }
     return newArray;
-}
-
-function countDown (number) {
-
-while (number >=0)
-    console.log(number--);
-  }
 };
+
+function countdown(number){
+    while (number >= 0){
+    console.log(number--)
+    }
+} 
