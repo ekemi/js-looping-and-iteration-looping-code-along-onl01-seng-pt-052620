@@ -9,8 +9,8 @@ function writeCards(array, string){
 
 function countDown (number) {
 
-for(let i = 0; i<=11; i--){
-    console.log(`${i}`);
+while (number >=0)
+    console.log(number--);
   }
 };
 
